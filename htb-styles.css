@@ -1,0 +1,106 @@
+ 
+	#max-logo, #max-desc {
+        	max-height: 7vh;
+          	max-width: 40vw;
+        }
+      	#max-logo {
+        	float:left;
+        }
+      	#max-desc {
+        	float: right;
+        }
+      	#collection-description {
+            width: 97.5% !important;
+    		margin-left: 14px !important;
+       	}
+      	#navigation {
+          background-color: #ED3328;
+     	}
+     
+	div#collection-description {
+       	margin: 0;
+	}
+      
+      .eyes .eye {
+      	height: 22px !important;
+      }
+      .eyes .eye:after {
+      	background-color:white !important ;
+      }
+      .eyes {
+      	top: 10px;
+        left: 71px;
+      }
+      #newsletter {
+      	background-color:  #ED3328;
+      }
+      #newsletter * {
+      	color: white !important;
+        border-color: white !important;
+      }
+
+      footer {
+      	color:  #ED3328 ;
+
+      }
+      #cool-logo-nav {
+        height: 43px ;
+      }
+      ul#nav li {
+      	 background-color:#ED3328;
+      }
+      #navigation *:hover {
+         transition: 0.3s ease;
+      	 color: black !important;
+      }
+      option {
+      	background-color:#ED3328;
+      }
+      #mc-embedded-subscribe {
+      	background-color:#ED3328 !important;
+      }
+      ul.megamenu li a {
+      	background-color: #ED3328 !important;
+      }
+      ul.megamenu li a:hover {
+      	color: black !important;
+      }
+      	.ui-menu-item-wrapper {
+     		background-color:#ED3328 !important;
+       		color: white !important;
+       	}
+       	.ui-menu-item-wrapper:hover {
+      		background-color: white !important;
+			color:  #ED3328 !important;
+   	 	}      
+        div.prod-image-container, .prod-container, .prod-image-container, .prod-index {
+        	height: 100% !important;  
+        }
+      
+        
+        @media only screen and (max-width: 740px) {
+            div.prod-image-container, .prod-container, .prod-image-container, .prod-index {
+                height: 100% !important;  
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+
+            div.prod-image-container, .prod-container, .prod-image-container, .prod-index {
+                height: 100% !important;
+            }
+        }
+
+        @media only screen and (max-width: 440px) {
+            div.prod-image-container, .prod-container, .prod-image-container, .prod-index {
+                height: 100% !important;
+            }
+
+        }
+
+        @media only screen and (min-height: 1600px) {
+            div.prod-image-container, .prod-container, .prod-image-container, .prod-index {
+                height: 100% !important;  
+            }
+        }
+      
